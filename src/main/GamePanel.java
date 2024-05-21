@@ -29,9 +29,16 @@ public class GamePanel extends JPanel implements Runnable {
     public CollisionChecker cChecker = new CollisionChecker(this);
     public Sound sound = new Sound();
     public Sound soundEffect = new Sound();
+    public UI ui = new UI(this);
+
+    // Entity and Object
     public SuperObject[] obj = new SuperObject[10];
     public AssetSetter aSetter = new AssetSetter(this);
-    public UI ui = new UI(this);
+
+    // GAME STATE
+//    public int gameState;
+//    public final int playState = 1;
+//    public final int pauseState = 2;
 
     public GamePanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));

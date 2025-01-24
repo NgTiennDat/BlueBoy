@@ -21,5 +21,4 @@ public class OBJ_Boots extends SuperObject {
             throw new RuntimeException();
         }
     }
-
 }

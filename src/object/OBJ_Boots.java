@@ -9,7 +9,6 @@ import java.util.Objects;
 public class OBJ_Boots extends SuperObject {
 
     GamePanel gp;
-
     public OBJ_Boots(GamePanel gp) {
         this.gp = gp;
 
